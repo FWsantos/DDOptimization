@@ -1,2 +1,2 @@
 # DDOptimization
-This project Implements the decision diagrams method for optimization problems.
+This project implements the decision diagrams method for set cover with pairs problem.
