@@ -1,0 +1,13 @@
+O formato delas é assim:
+[18:15]
+primeira linha: número de elementos
+[18:15]
+segunda linha: número de objetos(editado)
+[18:16]
+terceira linha: número de pares de objetos (esse número já é definido aleatoriamente). No gerador, nós só controlamos os 2 primeiros valores (elementos e objetos).
+[18:18]
+As linhas seguintes são sempre de duas em duas, cada par de linhas correspondendo a um par de objetos. Uma linha especifica os índices do par de objetos (pode ficar seguro de que nunca teremos o mesmo objeto duas vezes em um "par"). A linha seguinte especifica os elementos cobertos por aquele par de objetos da linha anterior.
+[18:18]
+Todos os índices são baseados em 1 (começam em 1).(editado)
+[18:19]
+Aqui vai o código do gerador, em Matlab/Octave, caso queira alterá-lo ou ver como funciona.
